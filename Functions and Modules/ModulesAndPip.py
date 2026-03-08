@@ -8,4 +8,5 @@ print(math.sqrt(100))
 print(math.sin(math.pi/2))
 
 print(myModule.who_win())
+print(myModule.player_of_match(),"",myModule.who_won())
 
