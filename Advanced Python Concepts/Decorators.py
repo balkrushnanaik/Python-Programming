@@ -16,7 +16,6 @@ def say_hello():
 # f = decorator(say_hello)
 # f()
 
-say_hello()
 
 
 
