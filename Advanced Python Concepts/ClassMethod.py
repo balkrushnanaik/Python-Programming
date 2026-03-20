@@ -33,6 +33,6 @@ print(w1.print_info())
 print(w2.print_info())
 
 print(w3.sum(10,20))
-print(w3.company_name("Kisan Sahayak"))
-print(w3.company)
+w3.company_name("Kisan Sahayak")
+print(Worker.company)
 
