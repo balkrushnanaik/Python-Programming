@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jinja</title>
+</head>
+<body>
+     {% for key in marks.keys() %}
+     <li>The marks of {{key}} is: {{marks.get(key)}}</li>
+     {% endfor %}
+</body>
+</html>
