@@ -1,5 +1,6 @@
 import math
 import myModule
+import requests
 
 
 print(math.pow(2,3))
@@ -9,4 +10,8 @@ print(math.sin(math.pi/2))
 
 print(myModule.who_win())
 print(myModule.player_of_match(),"",myModule.who_won())
+
+responces = requests.get('https://en.wikipedia.org/wiki/Main_Page')
+print(responces.status_code)
+
 
