@@ -1,4 +1,3 @@
-squared = []
-for i in range(10):
-    squared.append(i)
+squared = [x**2 for x in range(1,10+1)]
 print(squared)
+
