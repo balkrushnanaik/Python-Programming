@@ -1,7 +1,18 @@
-def area_of_square(side):
-    '''Formula of Area of Square is side X side'''
+def divide(a, b):
+    """Divide two numbers and return the result.
 
-    area = side * side
-    return area
-print(area_of_square.__doc__)
-print(area_of_square(10))
+    Args:
+        a (float): The dividend.
+        b (float): The divisor.
+
+    Returns:
+        float: The quotient.
+
+    Raises:
+        ValueError: If b is zero.
+    """
+    if b == 0:
+        raise ValueError("Division by zero")
+    return a / b
+print(divide.__doc__)
+print(divide(10,20))
