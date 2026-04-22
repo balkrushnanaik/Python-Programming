@@ -19,6 +19,8 @@ sales = [100, 150, 200, 250, 300, 350, 400, 50, 500, 550, 60, 50]
 plt.plot(months, sales, marker='o', color='b', linestyle='--', linewidth=2)
 plt.title('Monthly Sales')
 plt.xlabel('Months')
+
 plt.ylabel('Sales')
+plt.style.use('fast')
 plt.savefig('monthly_sales.png')
 plt.show()
