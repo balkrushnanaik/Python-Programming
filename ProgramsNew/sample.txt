@@ -1,2 +1,0 @@
-Hello Balkrushna!
-This is file handling in Python.
