@@ -21,25 +21,25 @@ df = pd.DataFrame(data)
 print(df)
 
 #Selecting Columns
-
-#Multiple Columns
-print(df[['Science','English','Computer']])
-
-#Selectiing Rows
-#Using Index
-print(df.iloc[0])
-
-__doc__='''Filtering Data in Pandas DataFrame \n'''
-print(__doc__)
-
-# print(df[df[['Science','Maths','English',"Computer"]]>80])
-
-print(df[df['Name']=='Sneha'])
-# print(df[df['Name']=='Riya'])
-# print(df[df['Name']=='Rahul'])
-
-__doc__='''Data Cleaning in Pandas \n'''
-print(__doc__)
-
-print(df.isnull())
-print(df.duplicated())
+#
+# #Multiple Columns
+# print(df[['Science','English','Computer']])
+#
+# #Selectiing Rows
+# #Using Index
+# print(df.iloc[0])
+#
+# __doc__='''Filtering Data in Pandas DataFrame \n'''
+# print(__doc__)
+#
+# # print(df[df[['Science','Maths','English',"Computer"]]>80])
+#
+# print(df[df['Name']=='Sneha'])
+# # print(df[df['Name']=='Riya'])
+# # print(df[df['Name']=='Rahul'])
+#
+# __doc__='''Data Cleaning in Pandas \n'''
+# print(__doc__)
+#
+# print(df.isnull())
+# print(df.duplicated())
