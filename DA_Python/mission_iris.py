@@ -2,6 +2,7 @@ import pandas as pd # type: ignore
 import numpy as np # type: ignore
 
 
+
 data = pd.read_csv('iris.csv', names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class'])
 print(data.head())
 
