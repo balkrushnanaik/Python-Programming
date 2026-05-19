@@ -39,5 +39,8 @@ print(student2)
 
 # --------------------------------------------------------------------------------------------------------
 
+# Abstraction:  Abstraction in OOP is hiding internal details and showing only the necessary features of an object or system.
+# It helps keep code simple and easier to use.
+
 
 
