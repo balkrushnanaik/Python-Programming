@@ -29,3 +29,23 @@ print(table_of_5.values())
 
 square_of_first_10 = {i: i**2 for i in range(1,11)}
 print(square_of_first_10)
+
+a = dict(name='Balkrushna', age=24)
+print(a)
+print(a.get('name'))
+print(a['age'])
+# a.clear()
+# print(a)
+for key, value in a.items():
+    print(key, value)
+
+d = {
+    'Student':{
+        'Name':input('Enter a name:'),
+        'age': int(input('Enter your age: '))
+    },
+    'College':{
+        "college_name": input('Enter your college name')
+    }
+}
+print(d)
