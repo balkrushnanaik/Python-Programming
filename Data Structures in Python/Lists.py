@@ -24,7 +24,14 @@ names = list(('Balkrushna','Vaibhav','Dhanraj','Sid'))
 print(names)
 print(names[0])
 
+for item in names:
+    print(item)
 if name in names:
     print('Present')
 else:
     print('Absent')
+
+a = [2] * 10
+b = ['Hello'] * 5
+print(*b, sep=' ')
+print(a)
