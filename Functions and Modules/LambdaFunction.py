@@ -1,12 +1,16 @@
-square = lambda x: x * x
-print(square(3))
+numbers = [11,20,30,40,21,31,42,56,76,67]
 
-sum = lambda x, y: x + y
-print(sum(2, 3))
+def even(x):
+    return x % 2 == 0
 
+evens = list(filter(even,numbers))
+print(f'Even Numbers: {evens}')
 
-div = lambda a, b: a / b
-print(div(4, 5))
+# The filter() function is used to select elements from a list based on a condition.
+# filter(function, iterable)
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+# Lambda Function
+
+odds = list(filter(lambda x: x % 2 == 1,numbers))
+print(f'Numbers are: {odds}')
 
